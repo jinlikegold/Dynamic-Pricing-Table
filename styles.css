@@ -1,0 +1,81 @@
+:root {
+ --black: #000000;
+ --truce: #B8A435;
+ --peacock: #11616B;
+}
+
+h2 {
+    color: var(--peacock)
+}
+
+#membership-options {
+    text-align: center;
+    cursor: pointer;
+  }
+  #monthly-tog, #quarterly-tog, #annual-tog {
+    background-color: var(--truce);
+    padding: 5px;
+  }
+#monthly-tog:hover, #quarterly-tog:hover, #annual-tog:hover {
+    color: white;
+  }
+  
+  .membership-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+  }
+  .membership-card {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    border-radius: 10px;
+    padding: 80px 120px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+   .features {
+    position: relative;
+    top: 95%;
+    
+    background-color: white;
+    padding: 10px 30px;
+    height: 100%;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+  }
+  
+  .membership-card:hover > .features {
+    top: 40%;
+  }
+  
+  
+  #basic-card {
+   background-image: url("https://static1.squarespace.com/static/5b478671f407b4f13da9e67b/t/638a6c6d3c36ac0efdc30f36/1670016112883/Memberships_Banner.png");
+  }
+  
+  #creator-card {
+   background-image: url("https://static1.squarespace.com/static/5b478671f407b4f13da9e67b/t/638a6cb0807446694175d2c4/1670016177384/SK1_2886_Banner_Bottom_2020.jpg");
+  }
+  
+  #aa-card {
+     background-image: url("https://static1.squarespace.com/static/5b478671f407b4f13da9e67b/t/638a6d847772727ef1cf6395/1670016391251/pawel-czerwinski-3k9PGKWt7ik-unsplash.jpg");
+  }
+   .price {
+    margin-top: -10px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .basic-price-display, .basic-membership-name {
+    color: #11616B;
+  }
+  .creator-price-display, .creator-membership-name {
+    color: #8E7479;
+  }
+  .aa-price-display, .aa-membership-name {
+    color: #582035;
+  }
